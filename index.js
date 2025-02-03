@@ -84,3 +84,13 @@ resume.addEventListener("click",()=>{
   window.open('./Source/DeepResume.pdf');
 });
 
+/************* Attch Link */
+
+const link = document.querySelectorAll("#attachLink , #attachLink");
+
+link.forEach((Goto)=>{
+  Goto.addEventListener("click",()=>{
+    window.open("https://github.com/DeepSheth2003","_blank");
+  })
+});
+
