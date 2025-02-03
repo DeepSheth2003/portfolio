@@ -76,4 +76,11 @@ modeSwitch.forEach(mode=>{
   });
 });
 
+/************** Resume Button */
+
+const resume = document.getElementById("resumeBtn");
+
+resume.addEventListener("click",()=>{
+  window.open('./Source/DeepResume.pdf');
+});
 
