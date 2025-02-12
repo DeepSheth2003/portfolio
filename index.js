@@ -94,3 +94,12 @@ link.forEach((Goto)=>{
   })
 });
 
+
+/************* Likedin Link */
+
+const linkedin = document.getElementById("linkedin");
+
+linkedin.addEventListener("click",()=>{
+  window.open("https://www.linkedin.com/in/deep-sheth-378164344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app","_blank");
+});
+
