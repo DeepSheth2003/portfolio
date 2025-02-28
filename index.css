@@ -274,7 +274,7 @@ header{
     width: 10%;
 }
 .site-logo{
-    background: url(./Source/web.png);
+    background: url(./Source/github.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -824,6 +824,30 @@ form>label>.languages>span{
     filter: contrast(2);
 }
 
+.pro-icon-currency{
+    background-image: url(./Source/money.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 90px;
+    margin-left: -40px;
+    border-right: 1px solid var(--white01);
+    filter: contrast(2);
+}
+
+.pro-icon-portfolio{
+    background-image: url(./Source/layers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 90px;
+    margin-left: -40px;
+    border-right: 1px solid var(--white01);
+    filter: contrast(2);
+}
+
 .pro-detail{
     padding: 5px;
     display: flex;
@@ -943,7 +967,7 @@ form>label>.languages>span{
     top: 15px;
 }
 .website-icon{
-    background-image: url(./Source/web.png);
+    background-image: url(./Source/github.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 35%;
@@ -1328,7 +1352,7 @@ footer>p{
         width: 10%;
     }
     .site-logo{
-        background: url(./Source/web.png);
+        background: url(./Source/github.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -1864,6 +1888,30 @@ main{
     box-shadow: var(--boxShadowHover);
 }
 
+.pro-icon-currency{
+    background-image: url(./Source/money.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50%;
+    width: 17%;
+    margin-left: 0px;
+    border-right: 1px solid var(--white01);
+    filter: contrast(2);
+}
+
+.pro-icon-portfolio{
+    background-image: url(./Source/layers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50%;
+    width: 17%;
+    margin-left: 0px;
+    border-right: 1px solid var(--white01);
+    filter: contrast(2);
+}
+
 .pro-icon{
     background-image: url(./Source/amazon.png);
     background-position: center;
@@ -1875,6 +1923,7 @@ main{
     border-right: 1px solid var(--white01);
     filter: contrast(2);
 }
+
 
 .pro-detail{
     width: 80%;
@@ -2394,7 +2443,7 @@ footer>p{
         width: 10%;
     }
     .site-logo{
-        background: url(./Source/web.png);
+        background: url(./Source/github.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -2941,6 +2990,30 @@ main{
 }
 .amazon:hover{
     box-shadow: var(--boxShadowHover);
+}
+
+.pro-icon-currency{
+    background-image: url(./Source/money.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40%;
+    width: 13%;
+    margin-left: 0px;
+    border-right: 1px solid var(--white01);
+    filter: contrast(2);
+}
+
+.pro-icon-portfolio{
+    background-image: url(./Source/layers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40%;
+    width: 13%;
+    margin-left: 0px;
+    border-right: 1px solid var(--white01);
+    filter: contrast(2);
 }
 
 .pro-icon{

@@ -38,12 +38,21 @@ numberOpen.forEach(call => {
 //>>>>>>>>>>>>>>>>>>>>>>>> amazon >>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-const amazonOpen = document.querySelectorAll(".amazon, .amazon");
+const currency = document.getElementById("currency");
+const portfolio = document.getElementById("portfolio");
+const amazon = document.getElementById("amazon");
 
-amazonOpen.forEach(amazon=>{
-    amazon.addEventListener("click",()=>{
-        window.open("https://deepsheth2003.github.io/deeppamazon","_blank");
-    });
+
+currency.addEventListener("click",()=>{
+    window.open("https://deepsheth2003.github.io/currencyConv","_blank");
+});
+
+portfolio.addEventListener("click",()=>{
+    window.open("https://deepsheth2003.github.io/portfolio","_blank");
+});
+
+amazon.addEventListener("click",()=>{
+    window.open("https://deepsheth2003.github.io/deeppamazon","_blank");
 });
 
 
@@ -81,7 +90,7 @@ modeSwitch.forEach(mode=>{
 const resume = document.getElementById("resumeBtn");
 
 resume.addEventListener("click",()=>{
-  window.open('./Source/DeepResume.pdf');
+  window.open('./Source/DeepOriginResume.pdf');
 });
 
 /************* Attch Link */
